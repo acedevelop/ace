@@ -1,0 +1,185 @@
+/*Color scheme HEX
+red : #e95d5c,
+blue : #2e9efa
+******************/
+
+/* Owl slider styling */
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#owl-carousel2 .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#owl-carousel2 .item{
+    margin: 3px;
+}
+
+#owl-carousel3 .item{
+    background: #a1def8;
+    padding: 30px 0px;
+    display: block;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Range slider styling */
+.ui-widget.ui-widget-content {
+    border: 1px solid #666;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.ui-slider-horizontal {
+    height: 1.5em;
+}
+
+/* Calculate section */
+.container.calculate-area {
+    padding-bottom: 45px;
+}
+
+.c-package {
+	margin-top: 8px;
+}
+
+/* Intro section */
+.container.intro-section {
+    padding-bottom: 25px;
+}
+
+/* Contact intro section */
+.container.contact-intro{
+    padding-top: 5em;
+}
+
+/* Jumbotron image-background */
+.jumbotron {
+    padding-top: 5em;
+    padding-bottom: 4em;
+    background: url("/images/banner_abstract-city2.jpg");
+    background-attachment: fixed;
+}
+
+/*Calculator section*/
+#s-calculator {
+    background-color: rgba(255,255,255,0.7);
+    padding: 5px 0px 20px 25px;
+    margin-left: 5em;
+    border: 3px solid #fff;
+}
+
+/*Banner intro-section */
+.banner-intro{
+    margin-top: 1em;
+}
+
+/*Fonts styling*/
+.banner-intro > p{
+    color: #fff;
+}
+.banner-intro > h1{
+    color: #fff;
+}
+
+p  {
+	font-size: 1.063em; /* 17px / 16 = 1.063em */
+	line-height: 1.223; /* 1.3 / 1.063 = 1.223 */
+	margin: .612em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 100;
+}
+		
+h1 {
+	font-size: 3.189em;
+	line-height: 1.223;
+}
+
+.jumbotron h1 {
+    font-size: 55px !important;
+	line-height: 1.223 !important;
+    font-weight: 100 !important;
+}
+
+.jumbotron p  {
+	font-size: 1.3125em !important; /* 17px / 16 = 1.063em */
+	line-height: 1.223 !important; /* 1.3 / 1.063 = 1.223 */
+	margin: .612em 0 !important;
+    padding-bottom: 25px;
+}
+	
+h2  {
+	font-size: 2.126em;
+	line-height: 1.223;
+}
+			
+h1, h2 {
+	text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
+}
+			 
+h3 {
+	font-size: 1.382em; 
+	line-height: 1.223;
+}
+		    
+h4 {
+	font-size: 1em;
+	line-height: 1.56;
+	text-transform: uppercase;
+}
+		
+h3,h4 {      
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#txt-estimate {
+    padding: 10px;
+    height: 42px;
+    width: 112px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#btn-estimate {
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 3px;
+    width: 105px;
+}
+.para-intro{
+    width: 655px;
+}
+
+.group.state {
+    margin-top: 10px;
+}
+
+#btn-estimate {
+    background-color: #2e9efa;
+    color: #fff;
+}
+
+/* Navigation styling */
+.navbar {
+    position: relative;
+    margin-bottom: 0px;
+}

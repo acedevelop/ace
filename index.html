@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Untitled Project</title>
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+    <script src="js/spin.min.js"></script>
+    
+</head>
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-md-8 banner-intro">
+            <h1 class="banner-heading">Professionally <span style="color:#2e9efa;">designed</span> websites</h1>
+            <p class="para-intro">Ace Development is a group of highly devoted individuals based in the lovely heart of Melbourne CBD that specialise in Web Design & Development. Committed to delivering beautifully designed, professional and cross platform custom websites to help your business stand out from the competition!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+        </div><!-- /.Ends banner intro -->
+        <div class="col-md-4">
+        <section class="main-content">
+            
+            <form id="s-calculator">          
+                <div id="summary">
+                    <h3><b>WEBSITE</b> DEALS</h3>
+                    <span>Make a selection:</span>
+                    <div class="group method c-package">
+                        <input type="radio" value="eco" name="r_method" id="r-method-eco" checked> <label for="r-method-pickup">Economy Bundle ($349)</label><br>
+            
+                        <input type="radio" value="standard" name="r_method" id="r-method-standard"> <label for="r-method-usps">Standard Bundle ($550)</label><br>
+            
+                        <input type="radio" value="premium" name="r_method" id="r-method-premium"> <label for="r-method-premium">4 Ace Bundle ($1050)</label>
+                    </div>
+                        
+                        <div class="group method">
+                            <label for="tax-state">Include GST:</label>
+                            <select id="tax-state" data-style="btn-ifno">
+                                <option value="DF">-- Select --</option>
+                                <option value="VIC">VIC (7.5% rate)</option>
+                                <option value="NA">Don't Include</option>
+                            </select>
+                        </div>
+        
+                    <div class="group calc">
+                        <input type="submit" value="Estimate" id="btn-estimate" class="btn btn-primary btn-md">
+                        <input type="text" id="txt-estimate" placeholder="$0.00" size="9">
+                        <div id="results"></div>
+                    </div>
+                    
+                </div><!-- /.Ends summary -->
+                </form>
+			</section>
+			<div class="clear"></div>
+          
+		  </div><!-- Ends calculator column -->
+        </div><!--/.Ends container -->
+    </div><!-- /.Ends jumbotron -->
+    
+    <div class="container intro-section">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-xs-12">
+                <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+        </div><!-- /.Ends row -->
+        <div class="row">
+            <div id="owl-carousel2">
+            
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_two.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_three.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_seven.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_four.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_ten.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_nine.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_six.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_five.jpg" alt="Owl Image"></div>
+            <div class="item img-responsive"><img class="img-responsive" src="images/service_one.jpg" alt="Owl Image"></div>
+            </div>
+        </div>
+    </div><!-- /.Ends container -->
+    
+    <div class="container calculate-area">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2>Website Packages</h2>
+                
+                <div id="accordion">
+                  <h3>Economy Website Package</h3>
+                  <div>
+                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                  </div>
+                  <h3>Standard Website Package</h3>
+                  <div>
+                    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                  </div>
+                  <h3>Economy E-Commerce Store</h3>
+                  <div>
+                    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                    <ul>
+                      <li>List item one</li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                    </ul>
+                  </div>
+                  <h3>Premium E-Commerce Store</h3>
+                  <div>
+                    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                  </div>
+                </div><!-- /.Ends accordion -->
+                
+            </div><!-- /.Ends column -->
+        
+            <div class="col-lg-5 col-md-6 col-xs-12 col-md-offset-1 text-center">
+            
+                <img src="/images/web-development_illustr.png" class="img-responsive" alt="Responsive image">
+                <p>Get the ball rolling on your project today!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">START PROJECT</a></p>
+                
+            </div>
+        
+        </div>
+    </div><!-- /.Ends container -->
+    
+    <div class="container">
+        <div id="owl-carousel3"></div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+        owl1 = $(".owl-carousel");
+        owl1.owlCarousel({ 
+            navigation : false, // Show next and prev buttons
+            slideSpeed : 200,
+            autoPlay : false,
+            stopOnHover : true,
+            navigation : false,
+            paginationSpeed : 400,
+            singleItem: true
+        });
+
+        owl2 = $("#owl-carousel2");
+        owl2.owlCarousel({
+            items : 6,
+            autoplay : true,
+            itemsDesktop : [1199, 5],
+            responsive : true,
+            itemsDesktopSmall : [979, 3]
+        });
+
+        owl3 = $("#owl-carousel3");
+        owl3.owlCarousel({
+        jsonPath : "json/data.json" 
+        });
+        
+        $('select').selectpicker({
+        size: 4
+        });
+        
+        var spinner = new Spinner().spin()
+        var target = $("body")[0];
+        target.appendChild(spinner.el)
+
+    });
+    </script>
+    
+    <script>
+        $(function() {
+        $("#slider").slider({
+        value: 1,
+        min: 349,
+        max: 1200,
+        step: 10,
+            slide: function( event, ui ) {
+                $("#amount").val("$" + ui.value + ' ' + "(GST Excluded)" );
+            }
+        });
+        $("#amount").val("$" + $("#slider").slider("value"));
+        });
+        
+        $(function(){
+        $( "#accordion" ).accordion({
+        collapsible: true
+        });
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
